@@ -1,0 +1,608 @@
+{
+  "project": "BS17 - CP: Office to Retail Space (JobWalk)",
+  "sheet": "02. FLOOR",
+  "source": "HoloBuilder interactive sheet PDF, exported 2026-10-06",
+  "accuracy": "Approximate manual positions on a 2D floor plan; not surveyed coordinates",
+  "points": [
+    {
+      "id": "1777536948385",
+      "x": 0.632556,
+      "y": 0.382136,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536948385"
+    },
+    {
+      "id": "1777536933037",
+      "x": 0.662128,
+      "y": 0.378927,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536933037"
+    },
+    {
+      "id": "1777536916051",
+      "x": 0.698568,
+      "y": 0.382412,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536916051"
+    },
+    {
+      "id": "1777536986465",
+      "x": 0.701634,
+      "y": 0.45148,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536986465"
+    },
+    {
+      "id": "1766130045000",
+      "x": 0.644441,
+      "y": 0.447003,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130045000"
+    },
+    {
+      "id": "1766130110557",
+      "x": 0.612516,
+      "y": 0.448385,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130110557"
+    },
+    {
+      "id": "1766130160994",
+      "x": 0.576936,
+      "y": 0.453107,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130160994"
+    },
+    {
+      "id": "1766130284728",
+      "x": 0.576374,
+      "y": 0.395165,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130284728"
+    },
+    {
+      "id": "1777536091804",
+      "x": 0.577112,
+      "y": 0.370459,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536091804"
+    },
+    {
+      "id": "1766130410383",
+      "x": 0.57982,
+      "y": 0.334401,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130410383"
+    },
+    {
+      "id": "1777536176849",
+      "x": 0.530715,
+      "y": 0.440443,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536176849"
+    },
+    {
+      "id": "1777536202393",
+      "x": 0.475508,
+      "y": 0.443046,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536202393"
+    },
+    {
+      "id": "1777536449168",
+      "x": 0.486056,
+      "y": 0.471178,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536449168"
+    },
+    {
+      "id": "1766130727331",
+      "x": 0.495677,
+      "y": 0.494028,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130727331"
+    },
+    {
+      "id": "1777536368930",
+      "x": 0.467731,
+      "y": 0.475268,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536368930"
+    },
+    {
+      "id": "1766130870534",
+      "x": 0.463241,
+      "y": 0.495519,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130870534"
+    },
+    {
+      "id": "1766131015516",
+      "x": 0.476242,
+      "y": 0.411795,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766131015516"
+    },
+    {
+      "id": "1777535308911",
+      "x": 0.438239,
+      "y": 0.44129,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535308911"
+    },
+    {
+      "id": "1777535336462",
+      "x": 0.408236,
+      "y": 0.442222,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535336462"
+    },
+    {
+      "id": "1777535360786",
+      "x": 0.380887,
+      "y": 0.44144,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535360786"
+    },
+    {
+      "id": "1777535237324",
+      "x": 0.381535,
+      "y": 0.486395,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535237324"
+    },
+    {
+      "id": "1777535160497",
+      "x": 0.384086,
+      "y": 0.546856,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535160497"
+    },
+    {
+      "id": "1777535209121",
+      "x": 0.426855,
+      "y": 0.549412,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535209121"
+    },
+    {
+      "id": "1777535283720",
+      "x": 0.424542,
+      "y": 0.490846,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535283720"
+    },
+    {
+      "id": "1777536400612",
+      "x": 0.454832,
+      "y": 0.535212,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536400612"
+    },
+    {
+      "id": "1777536485711",
+      "x": 0.480625,
+      "y": 0.529615,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536485711"
+    },
+    {
+      "id": "1777536625392",
+      "x": 0.523155,
+      "y": 0.531137,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536625392"
+    },
+    {
+      "id": "1777536705944",
+      "x": 0.592692,
+      "y": 0.521383,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536705944"
+    },
+    {
+      "id": "1766132847495",
+      "x": 0.586893,
+      "y": 0.60369,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766132847495"
+    },
+    {
+      "id": "1777536676224",
+      "x": 0.552805,
+      "y": 0.597891,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536676224"
+    },
+    {
+      "id": "1777536649530",
+      "x": 0.5535,
+      "y": 0.541574,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536649530"
+    },
+    {
+      "id": "1777536731917",
+      "x": 0.621486,
+      "y": 0.523203,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536731917"
+    },
+    {
+      "id": "1777536865702",
+      "x": 0.682201,
+      "y": 0.529609,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536865702"
+    },
+    {
+      "id": "1777537078109",
+      "x": 0.682608,
+      "y": 0.574734,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537078109"
+    },
+    {
+      "id": "1777537114193",
+      "x": 0.638017,
+      "y": 0.581473,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537114193"
+    },
+    {
+      "id": "1777537135122",
+      "x": 0.593683,
+      "y": 0.577706,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537135122"
+    },
+    {
+      "id": "1777536565894",
+      "x": 0.54332,
+      "y": 0.577364,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536565894"
+    },
+    {
+      "id": "1777536516826",
+      "x": 0.482717,
+      "y": 0.575953,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536516826"
+    },
+    {
+      "id": "1777535134053",
+      "x": 0.432112,
+      "y": 0.575782,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535134053"
+    },
+    {
+      "id": "1777535011185",
+      "x": 0.380057,
+      "y": 0.578362,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535011185"
+    },
+    {
+      "id": "1777535030239",
+      "x": 0.35828,
+      "y": 0.559515,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535030239"
+    },
+    {
+      "id": "1777535071349",
+      "x": 0.384657,
+      "y": 0.637797,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535071349"
+    },
+    {
+      "id": "1777534901751",
+      "x": 0.390792,
+      "y": 0.717044,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534901751"
+    },
+    {
+      "id": "1777534833882",
+      "x": 0.432596,
+      "y": 0.719941,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534833882"
+    },
+    {
+      "id": "1777534927994",
+      "x": 0.437788,
+      "y": 0.640216,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534927994"
+    },
+    {
+      "id": "1766134066652",
+      "x": 0.489471,
+      "y": 0.644007,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134066652"
+    },
+    {
+      "id": "1777534861986",
+      "x": 0.486931,
+      "y": 0.723225,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534861986"
+    },
+    {
+      "id": "1766134147818",
+      "x": 0.537666,
+      "y": 0.717196,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134147818"
+    },
+    {
+      "id": "1777534338967",
+      "x": 0.539595,
+      "y": 0.643488,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534338967"
+    },
+    {
+      "id": "1777534417349",
+      "x": 0.590197,
+      "y": 0.645554,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534417349"
+    },
+    {
+      "id": "1777537175297",
+      "x": 0.590074,
+      "y": 0.719613,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537175297"
+    },
+    {
+      "id": "1777534544215",
+      "x": 0.645262,
+      "y": 0.717043,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534544215"
+    },
+    {
+      "id": "1777534447587",
+      "x": 0.644295,
+      "y": 0.646081,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534447587"
+    },
+    {
+      "id": "1777534482581",
+      "x": 0.691421,
+      "y": 0.636596,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534482581"
+    },
+    {
+      "id": "1777534514494",
+      "x": 0.686579,
+      "y": 0.723211,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534514494"
+    },
+    {
+      "id": "1766134511020",
+      "x": 0.538206,
+      "y": 0.754917,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134511020"
+    },
+    {
+      "id": "1777534681583",
+      "x": 0.535859,
+      "y": 0.789527,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534681583"
+    },
+    {
+      "id": "1777534750872",
+      "x": 0.487778,
+      "y": 0.793154,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534750872"
+    },
+    {
+      "id": "1777534776110",
+      "x": 0.436818,
+      "y": 0.789365,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534776110"
+    },
+    {
+      "id": "1777534803210",
+      "x": 0.389359,
+      "y": 0.781454,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534803210"
+    },
+    {
+      "id": "1777534626903",
+      "x": 0.611527,
+      "y": 0.788578,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534626903"
+    },
+    {
+      "id": "1777534598029",
+      "x": 0.667917,
+      "y": 0.787563,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534598029"
+    },
+    {
+      "id": "1777534572645",
+      "x": 0.700457,
+      "y": 0.782334,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534572645"
+    },
+    {
+      "id": "1777535386591",
+      "x": 0.35535,
+      "y": 0.436361,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535386591"
+    },
+    {
+      "id": "1777535413071",
+      "x": 0.31558,
+      "y": 0.441394,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535413071"
+    },
+    {
+      "id": "1777535456496",
+      "x": 0.325673,
+      "y": 0.385625,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535456496"
+    },
+    {
+      "id": "1777535436591",
+      "x": 0.298321,
+      "y": 0.386566,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535436591"
+    },
+    {
+      "id": "1777535475073",
+      "x": 0.359145,
+      "y": 0.399689,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535475073"
+    },
+    {
+      "id": "1766135237253",
+      "x": 0.386496,
+      "y": 0.399782,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766135237253"
+    },
+    {
+      "id": "1777535573073",
+      "x": 0.428781,
+      "y": 0.331032,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535573073"
+    },
+    {
+      "id": "1777535545349",
+      "x": 0.370122,
+      "y": 0.319639,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535545349"
+    },
+    {
+      "id": "1777535524138",
+      "x": 0.320371,
+      "y": 0.313099,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535524138"
+    },
+    {
+      "id": "1777535607089",
+      "x": 0.470966,
+      "y": 0.321875,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535607089"
+    },
+    {
+      "id": "1777535987694",
+      "x": 0.530632,
+      "y": 0.307093,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535987694"
+    },
+    {
+      "id": "1777535964107",
+      "x": 0.532437,
+      "y": 0.235968,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535964107"
+    },
+    {
+      "id": "1777535644931",
+      "x": 0.477,
+      "y": 0.243186,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535644931"
+    },
+    {
+      "id": "1777535679090",
+      "x": 0.474843,
+      "y": 0.163264,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535679090"
+    },
+    {
+      "id": "1777535931891",
+      "x": 0.523638,
+      "y": 0.165152,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535931891"
+    },
+    {
+      "id": "1777535702699",
+      "x": 0.470598,
+      "y": 0.107275,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535702699"
+    },
+    {
+      "id": "1777535742255",
+      "x": 0.519752,
+      "y": 0.110714,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535742255"
+    },
+    {
+      "id": "1777535887190",
+      "x": 0.540491,
+      "y": 0.101139,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535887190"
+    },
+    {
+      "id": "1777535832733",
+      "x": 0.543566,
+      "y": 0.063431,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535832733"
+    },
+    {
+      "id": "1777535790495",
+      "x": 0.511638,
+      "y": 0.062634,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535790495"
+    },
+    {
+      "id": "1777536026303",
+      "x": 0.525709,
+      "y": 0.369597,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536026303"
+    },
+    {
+      "id": "1777534649183",
+      "x": 0.576639,
+      "y": 0.782764,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534649183"
+    },
+    {
+      "id": "1777534953150",
+      "x": 0.410459,
+      "y": 0.631637,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534953150"
+    },
+    {
+      "id": "1777535096405",
+      "x": 0.381651,
+      "y": 0.741788,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535096405"
+    },
+    {
+      "id": "1777535498117",
+      "x": 0.319067,
+      "y": 0.292462,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535498117"
+    },
+    {
+      "id": "1777535765691",
+      "x": 0.472616,
+      "y": 0.07135,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535765691"
+    },
+    {
+      "id": "1777536119093",
+      "x": 0.513486,
+      "y": 0.405252,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536119093"
+    },
+    {
+      "id": "1777536146380",
+      "x": 0.494044,
+      "y": 0.406875,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536146380"
+    },
+    {
+      "id": "1777536225313",
+      "x": 0.456579,
+      "y": 0.414178,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536225313"
+    },
+    {
+      "id": "1777536266028",
+      "x": 0.425443,
+      "y": 0.381563,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536266028"
+    },
+    {
+      "id": "1777536287515",
+      "x": 0.459059,
+      "y": 0.37163,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536287515"
+    },
+    {
+      "id": "1777536310920",
+      "x": 0.475947,
+      "y": 0.364699,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536310920"
+    },
+    {
+      "id": "1777536334357",
+      "x": 0.476028,
+      "y": 0.386761,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536334357"
+    },
+    {
+      "id": "1777536540239",
+      "x": 0.521269,
+      "y": 0.571648,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536540239"
+    },
+    {
+      "id": "1777537006738",
+      "x": 0.700951,
+      "y": 0.507743,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537006738"
+    },
+    {
+      "id": "1777537036304",
+      "x": 0.680252,
+      "y": 0.450492,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537036304"
+    },
+    {
+      "id": "1777537210483",
+      "x": 0.589434,
+      "y": 0.550408,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537210483"
+    }
+  ]
+}

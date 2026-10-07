@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemy360 · K2-skannpilot</title>
+  </head>
+  <body>
+    <header class="hemy-topbar" aria-label="Hemy 360 visningslab">
+      <div class="hemy-brand" aria-label="Hemy 360"><span class="hemy-app-mark" aria-hidden="true">▦</span><strong>Hemy <em>360</em></strong></div>
+      <div class="hemy-breadcrumb">Property Business <span aria-hidden="true">›</span> Digital Twin <span aria-hidden="true">›</span> <strong>Viewer Lab</strong></div>
+      <div class="hemy-topbar-actions">
+        <label for="hemy-theme-select">Design</label>
+        <select id="hemy-theme-select" aria-label="Velg design"><option value="classic">Lab · mørk</option><option value="hemy">Hemy 360 · lys</option></select>
+        <span id="hemy-top-property" class="hemy-top-property">BS17</span>
+      </div>
+    </header>
+    <nav class="hemy-rail" aria-label="Arbeidsområder i visningslaben">
+      <button type="button" data-panel-target=".property-picker" title="Eiendom" aria-label="Eiendom">⌂</button>
+      <button type="button" data-panel-target="#scan-layer-picker" title="Skannlag" aria-label="Skannlag">▧</button>
+      <button type="button" data-panel-target="#bim-panel" title="BIM" aria-label="BIM">⬡</button>
+      <button type="button" data-panel-target="#project-panel" title="Prosjekter" aria-label="Prosjekter">▤</button>
+    </nav>
+    <div id="scan-pilot">
+      <section class="hemy-workspace-heading" aria-label="Arbeidsområde">
+        <div><small>DIGITAL TWIN WORKSPACE · <span id="hemy-workspace-property-code">BS17</span></small><h2><span id="hemy-workspace-title">BS17 · Viewer Lab</span> <span aria-hidden="true">☆</span></h2><p id="hemy-workspace-subtitle">Skann, BIM og prosjektunderlag i ett arbeidsområde</p></div>
+        <span class="hemy-pilot-badge">Pilot · lokale data</span>
+      </section>
+      <aside class="panel">
+        <label class="theme-picker" for="viewer-theme"><span>Design / Theme</span><select id="viewer-theme" aria-label="Velg design"><option value="classic">Lab · mørk</option><option value="hemy">Hemy 360 · lys</option></select></label>
+        <label class="language-picker" for="viewer-language"><span>Språk / Language</span><select id="viewer-language" aria-label="Language / Språk"><option value="no">Norsk</option><option value="en">English</option></select></label>
+        <a class="back" href="./bim-lab.html?model=zones#Viewer">← Til BIM-laben</a>
+        <h1>K2-skannpilot</h1>
+        <p id="scan-name">BS17 Boiler room · LCC2</p>
+        <div class="field property-picker">
+          <label for="property-select">Bygning / eiendom</label>
+          <select id="property-select">
+            <optgroup label="Lilleberg Eiendom">
+              <option value="bs17">BS17 · skann og BIM</option>
+              <option value="bs19">BS19</option>
+              <option value="db8">DB8</option>
+              <option value="jv3">JV3</option>
+              <option value="odv18">ODV18</option>
+              <option value="sol10">Sol10</option>
+              <option value="sol11-23">Sol11-23</option>
+              <option value="sol20">Sol20 · utvendig skann</option>
+              <option value="sol24-26">Sol24-26</option>
+              <option value="t135">T135</option>
+            </optgroup>
+            <optgroup label="Sofienberg Diakonale Stiftelse">
+              <option value="hg62">HG62 · BIM</option>
+              <option value="hg64">HG64</option>
+            </optgroup>
+            <optgroup label="Energima"><option value="fv50">FV50</option></optgroup>
+            <optgroup label="Lillestrøm Delta - Bibliotek">
+              <option value="bibliotek-lillestrom">Bibliotek Lillestrøm</option>
+              <option value="lurundveien-7">Lurundveien 7</option>
+            </optgroup>
+            <optgroup label="Lillo Eiendom">
+              <option value="glg">GLG · Gamle Lillo Gård</option>
+              <option value="grv">GRV · Greverud senter</option>
+              <option value="lgn">LGN · Lillo Gård Næring</option>
+            </optgroup>
+          </select>
+        </div>
+        <div id="property-tabs" class="property-tabs" role="tablist" aria-label="Eiendomsinnhold">
+          <button id="property-tab-aim" type="button" role="tab" aria-selected="true">AIM / drift</button>
+          <button id="property-tab-projects" type="button" role="tab" aria-selected="false">Prosjekter</button>
+        </div>
+        <section id="project-panel" class="project-panel" role="tabpanel" hidden>
+          <h2>BS17 · prosjekter</h2>
+          <p class="project-demo-note">Demostruktur fra Hemy Projects. Objektifisering er et foreslått underprosjekt; ingen prosjekter opprettes her.</p>
+          <label for="project-select">Over- og underprosjekt</label>
+          <select id="project-select" aria-label="Velg BS17-prosjekt"></select>
+          <p id="project-selection-note" role="status" aria-live="polite"></p>
+          <div class="project-links">
+            <a id="hemy-projects-link" href="https://hemy360.com/hemyprojects/dynamics" target="_blank" rel="noopener noreferrer">Åpne Hemy Projects ↗</a>
+            <a id="objectification-demo-link" href="http://localhost:3000/?scan=bs17" target="_blank" rel="noopener noreferrer">Åpne BS17 objektifisering ↗</a>
+          </div>
+          <h3>Prosjektunderlag · Office to Retail Space</h3>
+          <p id="project-source-note">BS17 · Construction Project – Office to Retail Space. Kilden er ACC; disse tegningene er prosjektunderlag, ikke godkjent AIM.</p>
+          <a id="project-source-link" class="layer-open" href="https://acc.autodesk.eu/docs/files/projects/2f1cc828-8578-4e0a-adde-389a86ab1cb7?folderUrn=urn%3Aadsk.wipemea%3Afs.folder%3Aco.c2VYK3f-TUmswL09xsU2Ng&amp;viewModel=detail&amp;moduleId=folders" target="_blank" rel="noopener noreferrer">Åpne tegninger i ACC</a>
+          <ul id="project-file-list"><li>250917 plan 1 - as is.pdf</li><li>230904 Plan 1.dwg</li><li>230904 Plan 3.dwg</li><li>2408-4-TI-A02 Utomhusplan.pdf</li></ul>
+          <h3>JobWalk / FARO Sphere XG · 360°</h3>
+          <p>Office to Retail Space har 360-bilder med punkter på plantegning. Prosjektet mangler koordinater; bildene må innrettes mot kjente punkter i skann og BIM før de vises på eksakt sted i 3D.</p>
+          <button id="jobwalk-map-open" type="button">Vis 3 kart med 172 bildepunkt</button>
+          <dialog id="jobwalk-map-panel" class="jobwalk-map-panel" aria-label="JobWalk-kart med omtrentlige bildepunkt">
+            <button id="jobwalk-map-close" type="button">Lukk kart</button>
+          <p>Punktene er kopiert fra JobWalk-plantegningene slik de ble plassert manuelt. Kartposisjonene er omtrentlige. Kun punkter med importerte originalbilder kan åpnes som 360° i Hemy360.</p>
+            <label for="jobwalk-floor-select">Etasje</label>
+            <select id="jobwalk-floor-select"><option value="01">01. FLOOR · 67 punkter</option><option value="02">02. FLOOR · 100 punkter</option><option value="03">03. FLOOR · 5 punkter</option></select>
+            <div class="jobwalk-map-scroll"><div id="jobwalk-map" class="jobwalk-map" aria-label="JobWalk 01. FLOOR med omtrentlige bildepunkt">
+              <img id="jobwalk-floor-image" src="./jobwalk/bs17-office-retail/floor-01.webp" alt="JobWalk plantegning 01. FLOOR" />
+              <div id="jobwalk-map-points" class="jobwalk-map-points"></div>
+            </div></div>
+            <p id="jobwalk-map-status" role="status">Laster bildepunkt …</p>
+          </dialog>
+          <dialog id="jobwalk-photo-panel" class="jobwalk-photo-panel" aria-label="Hemy360 360-bilde">
+            <div class="jobwalk-photo-head">
+              <strong id="jobwalk-photo-title">360°-opptak</strong>
+              <label>Historikk <select id="jobwalk-photo-version" aria-label="Velg versjon og tidspunkt"></select></label>
+              <a id="jobwalk-photo-original" href="#" download>Last ned original</a>
+              <button id="jobwalk-photo-close" type="button">Lukk</button>
+            </div>
+            <div id="jobwalk-photo-view" class="jobwalk-photo-view" aria-label="Interaktivt 360-bilde"></div>
+            <p id="jobwalk-photo-status" role="status">Laster bilde …</p>
+          </dialog>
+          <h3>Modell- og skannkilder i ACC</h3>
+          <p>Prosjektunderlag for vurdering og innretting. Modellene er ikke automatisk registrert som godkjent AIM.</p>
+          <a class="layer-open" href="https://acc.autodesk.eu/build/files/projects/2f1cc828-8578-4e0a-adde-389a86ab1cb7?folderUrn=urn%3Aadsk.wipemea%3Afs.folder%3Aco.YbEzBa7GScmkomNKZeqnag&amp;viewModel=detail&amp;moduleId=folders" target="_blank" rel="noopener noreferrer">Åpne Nemy-kilder i ACC ↗</a>
+          <section id="drawing-panel" class="drawing-panel">
+            <h3>2D-tegning i 3D-visningen</h3>
+            <p>Velg en PDF eller et bilde fra egen maskin. Filen behandles bare i nettleseren.</p>
+            <input id="drawing-file" type="file" accept=".pdf,application/pdf,.png,.jpg,.jpeg,image/png,image/jpeg" aria-label="Velg PDF eller bilde" />
+            <label for="drawing-page">Side</label><select id="drawing-page" disabled><option value="1">1</option></select>
+            <label for="drawing-level">Etasje / høyde</label><select id="drawing-level"><option value="lower">Nedre nivå</option><option value="upper">Øvre nivå</option><option value="custom">Egen høyde</option></select>
+            <label for="drawing-height">Høyde i skannets koordinater (m)</label><input id="drawing-height" type="number" step="0.1" value="0" />
+            <label for="drawing-opacity">Gjennomsiktighet <output id="drawing-opacity-value">55 %</output></label><input id="drawing-opacity" type="range" min="0.1" max="1" step="0.05" value="0.55" />
+            <label class="toggle" for="drawing-visible"><input id="drawing-visible" type="checkbox" checked /> Vis tegningslag</label>
+            <p>Velg punkt 1 og 2 på tegningen, og samme punkter på skann eller BIM.</p>
+            <div class="drawing-preview-wrap"><canvas id="drawing-preview" width="260" height="160" aria-label="Forhåndsvisning av tegning"></canvas><div id="drawing-preview-points"></div></div>
+            <div class="drawing-pick-grid"><button id="drawing-source-1" type="button">1 · Tegning</button><button id="drawing-world-1" type="button">1 · 3D</button><button id="drawing-source-2" type="button">2 · Tegning</button><button id="drawing-world-2" type="button">2 · 3D</button></div>
+            <button id="drawing-reset" type="button">Nullstill innretting</button>
+            <p id="drawing-status" role="status" aria-live="polite">Velg en PDF eller et bilde for å starte.</p>
+            <p class="drawing-caveat">To punktpar gir plassering, rotasjon og lik målestokk. Kontroller mot flere detaljer før tegningen brukes til måling.</p>
+          </section>
+        </section>
+        <section id="property-summary" class="adjacent-panel" hidden>
+          <h2 id="property-summary-title"></h2>
+          <p id="property-summary-note"></p>
+          <a id="property-summary-link" class="layer-open" href="./bim-lab.html?model=zones#Viewer" hidden>Åpne HG62 BIM-visning</a>
+        </section>
+        <div class="field" id="scan-field">
+          <label for="scan-select">Opptak</label>
+          <select id="scan-select">
+            <option value="boiler">180322 · Boiler room · LCC2</option>
+            <option value="bs17-default">102311 · avbrutt testskann + GCP</option>
+            <option value="bs17-loftet">152950 · Loftet · GCP/POI/HDE/POV</option>
+            <option value="bs17-outdoor">183256 · utvendig referanse · LCC2</option>
+            <option value="bs17-fagmoebler1">112646 · Fagmøbler1 · LAS</option>
+          </select>
+        </div>
+        <fieldset id="scan-layer-picker" class="scan-layer-picker">
+          <legend>Velg flere opptak</legend>
+          <label><input type="checkbox" value="152950" /> 152950 · Loftet</label>
+          <label><input type="checkbox" value="152958" /> 152958 · Hendrix</label>
+          <label><input type="checkbox" value="183256" /> 183256 · utvendig</label>
+          <label><input type="checkbox" value="112646" /> 112646 · Fagmøbler1</label>
+          <label><input type="checkbox" value="180322" /> 180322 · Boiler room</label>
+          <label><input type="checkbox" value="102311" /> 102311 · testskann</label>
+          <div id="catalog-layer-picker"></div>
+          <p>Valgte opptak vises under «Aktive skannlag». Opptak uten kontrollert felles plassering åpnes separat.</p>
+        </fieldset>
+        <section id="single-layer-panel" class="adjacent-panel" hidden>
+          <h2>Aktive skannlag</h2>
+          <div class="model-layer">
+            <strong id="single-layer-title"></strong>
+            <label for="single-visibility">Synlighet</label>
+            <select id="single-visibility"><option value="visible">Synlig</option><option value="ghost">Gjennomsiktig</option><option value="hidden">Borte</option></select>
+            <label for="single-display">Filtype</label>
+            <select id="single-display"><option value="splat">3DGS · LCC2</option><option value="points">Punktsky · LCC2</option><option value="drawing" disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <p id="single-layer-note" class="layer-status"></p>
+          </div>
+        </section>
+        <section id="adjacent-panel" class="adjacent-panel" hidden>
+          <h2>Aktive skannlag</h2>
+          <p class="model-order-help">Øverste rad prioriteres i overlapp. Flytt med pilene.</p>
+          <div id="model-list" class="model-list"></div>
+          <div class="model-layer" data-layer-id="152950">
+            <strong>Loftet · 152950</strong>
+            <label for="show-loft">Synlighet</label>
+            <select id="show-loft" aria-label="Synlighet Loftet"><option value="visible">Synlig</option><option value="ghost">Ghost</option><option value="hidden">Borte</option></select>
+            <label for="loft-display">Filtype</label>
+            <select id="loft-display" aria-label="Filtype Loftet"><option value="splat">3DGS · LCC2</option><option value="points">Punktsky · LCC2</option><option value="drawing" disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <label class="toggle" for="show-loft-points"><input id="show-loft-points" type="checkbox" checked /> Punkter med bilder</label>
+          </div>
+          <div class="model-layer" data-layer-id="152958">
+            <strong>Hendrix · 152958</strong>
+            <label for="show-hendrix">Synlighet</label>
+            <select id="show-hendrix" aria-label="Synlighet Hendrix"><option value="hidden">Borte</option><option value="visible">Synlig</option><option value="ghost">Ghost</option></select>
+            <label for="hendrix-display">Filtype</label>
+            <select id="hendrix-display" aria-label="Filtype Hendrix"><option value="splat">3DGS · LCC2</option><option value="points">Punktsky · LCC2</option><option value="drawing" disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <label class="toggle" for="show-hendrix-points"><input id="show-hendrix-points" type="checkbox" checked /> Punkter med bilder</label>
+          </div>
+          <div class="model-layer" data-layer-id="183256">
+            <strong>Utvendig referanse · 183256 · LCC2</strong>
+            <label for="show-outdoor">Synlighet</label>
+            <select id="show-outdoor" aria-label="Synlighet utvendig referanse"><option value="hidden">Borte</option><option value="visible">Synlig</option><option value="ghost">Gjennomsiktig</option></select>
+            <label for="outdoor-display">Filtype</label>
+            <select id="outdoor-display" aria-label="Filtype utvendig referanse"><option value="splat">3DGS · LCC2</option><option value="points">Punktsky · LCC2</option><option value="drawing" disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <label class="toggle" for="show-outdoor-points"><input id="show-outdoor-points" type="checkbox" checked /> Punkter med bilder</label>
+            <p id="outdoor-status" class="layer-status">Full LCC2 lastes når laget vises. Høydedatum er ikke verifisert.</p>
+          </div>
+          <div class="model-layer" data-layer-id="112646">
+            <strong>Fagmøbler1 · 112646 · LAS</strong>
+            <label for="show-fagmoebler">Synlighet</label>
+            <select id="show-fagmoebler" aria-label="Synlighet Fagmøbler1"><option value="hidden">Borte</option><option value="visible">Synlig</option><option value="ghost">Gjennomsiktig</option></select>
+            <label for="fagmoebler-type">Filtype</label>
+            <select id="fagmoebler-type" aria-label="Filtype Fagmøbler1"><option>LAS · punktsky</option><option disabled>3DGS · ikke tilgjengelig</option><option disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <label class="toggle" for="show-fagmoebler-points"><input id="show-fagmoebler-points" type="checkbox" checked /> Punkter med bilder</label>
+            <p id="fagmoebler-status" class="layer-status">Farget LAS-utvalg lastes når laget vises. Foreløpig tilpasning i Loftets lokale ramme.</p>
+          </div>
+          <div class="model-layer" data-layer-id="180322" hidden>
+            <strong>Boiler room · 180322</strong>
+            <label for="boiler-type">Filtype</label>
+            <select id="boiler-type" aria-label="Filtype Boiler room"><option value="splat">3DGS · LCC2</option><option value="points">Punktsky · LCC2</option><option value="drawing" disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <p class="layer-status">Lokalt koordinatsystem (EPSG 0). Kan ikke legges over de øvrige skannene uten kontrollert transformasjon.</p>
+            <a class="layer-open" href="/lcc2.html">Åpne Boiler room separat</a>
+          </div>
+          <div class="model-layer" data-layer-id="102311" hidden>
+            <strong>Testskann · 102311</strong>
+            <label for="testscan-type">Filtype</label>
+            <select id="testscan-type" aria-label="Filtype testskann"><option>Punktsky · LAS</option><option disabled>3DGS · ikke tilgjengelig</option><option disabled>2D-tegning · ikke tilgjengelig</option></select>
+            <p class="layer-status">Avbrutt opptak uten RTK fixed. Kan ikke legges over de øvrige skannene uten kontrollert transformasjon.</p>
+            <a class="layer-open" href="/lcc2.html?scan=bs17-default">Åpne testskann separat</a>
+          </div>
+          <div id="catalog-layer-cards"></div>
+          <div class="model-layer" data-layer-id="bim">
+            <strong>ARST · BIM</strong>
+            <label for="bim-visibility">Synlighet</label>
+            <select id="bim-visibility" aria-label="Synlighet BIM"><option value="hidden">Borte</option><option value="visible">Synlig</option><option value="ghost">Ghost</option></select>
+            <label for="bim-type">Filtype</label>
+            <select id="bim-type" aria-label="Filtype BIM"><option>IFC/Fragments · BIM</option><option disabled>2D-tegning · ikke tilgjengelig</option></select>
+          </div>
+          <div class="model-preferences">
+            <button id="save-model-preferences" type="button">Lagre mine preferanser</button>
+            <button id="reset-model-preferences" type="button">Bruk standardvalg</button>
+            <p id="model-preferences-status" role="status" aria-live="polite">Rekkefølge og visning lagres på denne enheten.</p>
+          </div>
+          <p>Punktvisning for LCC2 viser eksportens punkter. Fagmøbler1 bruker et farget LAS-utvalg; utvendig skann bruker LAS som reserve. Bildemarkører styres separat.</p>
+          <div class="overlap-priority" hidden>
+            <label for="overlap-priority">Prioriter skann i overlapp</label>
+            <select id="overlap-priority">
+              <option value="183256">Utvendig · 183256</option>
+              <option value="152950">Loftet · 152950</option>
+              <option value="152958">Hendrix · 152958</option>
+            </select>
+            <p>Valgt skann tegnes sist og får mer detalj når scenene overlapper. Velg Loftet eller Hendrix når innvendig opptak er skarpere.</p>
+          </div>
+          <label class="toggle" for="separate-scans"><input id="separate-scans" type="checkbox" checked /> Skill skannene i høyden</label>
+          <div class="scan-separation">
+            <label for="scan-separation-height">Skillegrense <output id="scan-separation-value" for="scan-separation-height">2,5 m</output></label>
+            <input id="scan-separation-height" type="range" min="0" max="10" step="0.1" value="2.5" />
+            <p>Loftet vises under grensen og Hendrix over. Juster hvis takflaten dekker rommet; slå av for å undersøke rå overlapp.</p>
+          </div>
+          <p id="hendrix-status">Hendrix er et separat opptak. Visuell samstilling bruker LCC2-koordinater. POI-kontrollen gjelder Hendrix internt; mulige felles GCP-er er ikke bekreftet.</p>
+          <div id="gcp-match-list" class="gcp-match-list" hidden></div>
+          <div id="shared-anchor-list" class="gcp-match-list" hidden></div>
+        </section>
+        <section id="noise-mask-panel" class="noise-mask-panel" hidden>
+          <h2>Klippemasker for skann</h2>
+          <p>Behold et område og skjul løse splats utenfor. Originalfilen endres ikke.</p>
+          <label for="noise-mask-layer">Skannlag</label>
+          <select id="noise-mask-layer">
+            <option value="152950">Loftet · 152950</option>
+            <option value="152958">Hendrix · 152958</option>
+            <option value="183256">Utvendig · 183256</option>
+            <option value="180322">Boiler room · 180322</option>
+          </select>
+          <button id="noise-mask-pick" type="button">Tegn område</button>
+          <button id="noise-mask-undo" type="button" disabled>Angre siste hjørne</button>
+          <label class="toggle" for="noise-mask-enabled"><input id="noise-mask-enabled" type="checkbox" disabled /> Bruk masken</label>
+          <label for="noise-mask-margin">Margin rundt området <output id="noise-mask-margin-value" for="noise-mask-margin">1 m</output></label>
+          <input id="noise-mask-margin" type="range" min="0" max="10" step="0.5" value="1" disabled />
+          <button id="noise-mask-clear" type="button" disabled>Fjern masken</button>
+          <p id="noise-mask-status" role="status" aria-live="polite">Tegn rundt området som skal beholdes. Klikk på startpunktet for å lukke linjen.</p>
+        </section>
+        <section id="gcp-panel" class="gcp-panel" hidden>
+          <h2>Registrerte punkter</h2>
+          <label class="toggle" for="show-gcps"><input id="show-gcps" type="checkbox" checked /> GCP <span id="gcp-count">0</span></label>
+          <label class="toggle" for="show-pois"><input id="show-pois" type="checkbox" checked /> POI <span id="poi-count">0</span></label>
+          <label class="toggle" for="show-hdes"><input id="show-hdes" type="checkbox" checked /> HDE <span id="hde-count">0</span></label>
+          <label class="toggle" for="show-povs"><input id="show-povs" type="checkbox" checked /> POV <span id="pov-count">0</span></label>
+          <p id="gcp-status-summary" hidden>GCP-status: <span class="key fixed"></span> fixed <span id="fixed-count">0</span> · <span class="key single"></span> single <span id="single-count">0</span> · <span class="key unknown"></span> annen <span id="unknown-count">0</span></p>
+          <p id="point-photo-hint">Klikk på et punkt for bilder og 360° bildeboble.</p>
+        </section>
+        <div id="detail-field" class="field">
+          <label for="detail">Detaljnivå</label>
+          <select id="detail">
+            <option value="500000">Lavt · 0,5 mill. splats</option>
+            <option value="2000000" selected>Middels · 2 mill. splats</option>
+            <option value="4000000">Høyt · 4 mill. splats</option>
+            <option value="8000000">Svært høyt · 8 mill. splats</option>
+          </select>
+        </div>
+        <section id="section-panel" class="section-panel" hidden>
+          <h2>Snittplan</h2>
+          <div class="section-mode" role="group" aria-label="Snittverktøy">
+            <button type="button" data-section-mode="plane" aria-pressed="true">Fritt plan</button>
+            <button type="button" data-section-mode="axes" aria-pressed="false">Høyde</button>
+            <button type="button" data-section-mode="box" aria-pressed="false">Boks</button>
+          </div>
+          <p id="section-mode-help">Velg en overflate i 3D for å plassere snittplanet.</p>
+          <div id="section-axis-tools">
+          <fieldset id="height-view" class="height-view" hidden>
+            <legend>Høydevisning</legend>
+            <div class="height-view-buttons">
+              <button type="button" data-height-view="both" aria-pressed="true">Begge</button>
+              <button type="button" data-height-view="loft" aria-pressed="false">Nedre</button>
+              <button type="button" data-height-view="hendrix" aria-pressed="false">Øvre</button>
+            </div>
+            <p id="height-view-status">Viser begge nivåer. Foreløpig skille ved 3,5 m i skannets lokale høyde.</p>
+          </fieldset>
+          <div id="section-axes"></div>
+          </div>
+          <div id="section-plane-tools" class="section-shape-tools" hidden>
+            <button id="section-plane-pick" type="button">Velg overflate i 3D</button>
+            <label for="section-plane-azimuth">Retning <output id="section-plane-azimuth-value">0°</output></label>
+            <input id="section-plane-azimuth" type="range" min="-180" max="180" step="1" value="0" />
+            <label for="section-plane-tilt">Helning <output id="section-plane-tilt-value">0°</output></label>
+            <input id="section-plane-tilt" type="range" min="-90" max="90" step="1" value="0" />
+            <label for="section-plane-offset">Flytt plan <output id="section-plane-offset-value">0 m</output></label>
+            <input id="section-plane-offset" type="range" min="-50" max="50" step="0.1" value="0" />
+            <label for="section-plane-side">Behold side</label>
+            <select id="section-plane-side"><option value="positive">I pilens retning</option><option value="negative">Motsatt retning</option></select>
+          </div>
+          <div id="section-box-tools" class="section-shape-tools" hidden>
+            <p>Flytt, roter eller skaler boksen med håndtakene i 3D-visningen.</p>
+            <div class="section-gizmo-actions" role="group" aria-label="Rediger boks">
+              <button type="button" data-gizmo-mode="translate" aria-pressed="true">Flytt</button>
+              <button type="button" data-gizmo-mode="rotate" aria-pressed="false">Roter</button>
+              <button type="button" data-gizmo-mode="scale" aria-pressed="false">Skaler</button>
+            </div>
+            <button id="section-box-fit" type="button">Tilpass boks til skannet</button>
+          </div>
+          <button id="section-reset" type="button">Nullstill snitt</button>
+        </section>
+        <div class="field wheel-speed-field">
+          <label for="wheel-speed">Musehjul · bevegelse <output id="wheel-speed-value" for="wheel-speed"></output></label>
+          <input id="wheel-speed" type="range" min="0.1" max="5" step="0.1" />
+          <p>Trekk mot venstre for kortere steg.</p>
+        </div>
+        <section id="bim-panel" class="bim-panel" hidden>
+          <h2>BIM mot skann</h2>
+          <input id="show-bim" type="checkbox" hidden />
+          <div id="bim-opacity-field" class="field" hidden>
+            <label for="bim-opacity">BIM-synlighet <output id="bim-opacity-value" for="bim-opacity">65 %</output></label>
+            <input id="bim-opacity" type="range" min="0.15" max="1" step="0.05" value="0.65" />
+            <label for="bim-light">BIM-lys <output id="bim-light-value" for="bim-light">100 %</output></label>
+            <input id="bim-light" type="range" min="0.4" max="2" step="0.1" value="1" />
+          </div>
+          <p id="bim-status">Foreløpig plassering fra IFC og skannets koordinater. Må kontrolleres mot felles referansepunkter.</p>
+          <section id="bim-explorer" class="bim-explorer" hidden>
+            <h3>Modelltre</h3>
+            <p>Velg lag, eller klikk et objekt i modellen eller treet.</p>
+            <form id="bim-filter" class="bim-filter">
+              <strong>Filtrer BIM-objekter</strong>
+              <label for="bim-filter-field">Felt</label>
+              <select id="bim-filter-field">
+                <option value="storey">Etasje / struktur</option>
+                <option value="category">IFC-klasse</option>
+                <option value="type">Objekttype</option>
+                <option value="name">Objektnavn</option>
+                <option value="layer">IFC-lag</option>
+                <option value="system">System</option>
+                <option value="property">Parameter</option>
+              </select>
+              <label for="bim-filter-name" id="bim-filter-name-label" hidden>Parameternavn</label>
+              <input id="bim-filter-name" type="text" placeholder="f.eks. MMI level" hidden />
+              <label for="bim-filter-value">Inneholder / verdi</label>
+              <input id="bim-filter-value" type="text" list="bim-filter-suggestions" placeholder="f.eks. 300" />
+              <datalist id="bim-filter-suggestions"></datalist>
+              <div class="bim-filter-actions">
+                <button type="submit">Vis treff</button>
+                <button id="bim-filter-mmi300" type="button">MMI 300</button>
+                <button id="bim-filter-clear" type="button">Vis alle</button>
+              </div>
+              <p id="bim-filter-status" role="status" aria-live="polite">Velg et felt og en verdi.</p>
+              <div id="bim-filter-results" class="bim-filter-results"></div>
+            </form>
+            <fieldset class="bim-layers">
+              <legend>Synlige BIM-lag</legend>
+              <label class="toggle" for="show-bim-spaces"><input id="show-bim-spaces" type="checkbox" /> Romvolumer <span id="bim-spaces-count">…</span></label>
+              <label class="toggle" for="show-bim-shells"><input id="show-bim-shells" type="checkbox" /> Tak og dekker <span id="bim-shells-count">…</span></label>
+              <label class="toggle" for="show-bim-walls"><input id="show-bim-walls" type="checkbox" /> Vegger <span id="bim-walls-count">…</span></label>
+              <label class="toggle" for="show-bim-openings"><input id="show-bim-openings" type="checkbox" checked /> Vinduer og dører <span id="bim-openings-count">…</span></label>
+              <label class="toggle" for="show-bim-others"><input id="show-bim-others" type="checkbox" /> Andre bygningsdeler <span id="bim-others-count">…</span></label>
+              <p id="bim-layer-status" role="status" aria-live="polite">Laster lagoversikt …</p>
+            </fieldset>
+            <details class="bim-structure" open>
+              <summary>Bygning, etasjer og objekter</summary>
+              <div id="bim-tree" class="bim-tree" aria-label="BIM-modelltre"></div>
+            </details>
+            <div id="bim-object" class="bim-object" role="status" aria-live="polite">Ingen objekt valgt.</div>
+          </section>
+        </section>
+        <button id="reset-view" type="button">Tilpass visning</button>
+        <button id="points" type="button" disabled hidden>Bytt til punktvisning</button>
+        <label class="toggle" for="collision"><input id="collision" type="checkbox" disabled /> Kollisjon</label>
+        <p id="collision-status" class="toggle-note">Sjekker kollisjonsdata …</p>
+        <section class="controls-guide" aria-label="Navigasjon">
+          <h2>Navigasjon</h2>
+          <p><kbd>W</kbd>/<kbd>S</kbd> frem/bak · <kbd>A</kbd>/<kbd>D</kbd> venstre/høyre</p>
+          <p><kbd>Q</kbd>/<kbd>E</kbd> drei venstre/høyre · <kbd>R</kbd>/<kbd>F</kbd> se opp/ned</p>
+          <p>Venstre museknapp: roter fritt rundt klikkpunktet. Høyre museknapp: panorer. Musehjul flytter frem/bak. Hold <kbd>Shift</kbd> for raskere gange.</p>
+        </section>
+        <p id="status" role="status" aria-live="polite">Forbereder skannet …</p>
+        <dl class="metrics">
+          <div><dt>Lastetid</dt><dd id="load-time">–</dd></div>
+          <div><dt>Bildefrekvens</dt><dd id="fps">–</dd></div>
+        </dl>
+        <p id="scan-note" class="note">Detaljer lastes etter hvert som du navigerer. Skannet har ikke koordinatsystem (EPSG 0), så plassering mot BIM må kalibreres separat.</p>
+      </aside>
+      <div id="sidebar-resize-handle" role="separator" aria-label="Juster bredde på sidemenyen" aria-orientation="vertical" aria-valuemin="260" aria-valuemax="600" aria-valuenow="350" tabindex="0"></div>
+      <main id="canvas-host" aria-label="3D-visning av K2-skann">
+        <section id="gcp-annotation" class="gcp-annotation" aria-label="Bilder fra kontrollpunkt" hidden>
+          <div class="annotation-heading">
+            <div><h2 id="gcp-annotation-title"></h2><p id="gcp-annotation-status"></p></div>
+            <button id="gcp-annotation-close" type="button" aria-label="Lukk bilde">×</button>
+          </div>
+          <div id="photo-viewport" class="photo-viewport"><img id="gcp-annotation-image" alt="" /></div>
+          <p id="gcp-annotation-caption"></p>
+          <div class="photo-zoom" aria-label="Zoom i 2D-bilde">
+            <button id="photo-zoom-out" type="button" aria-label="Zoom ut">−</button>
+            <span id="photo-zoom-level">100 %</span>
+            <button id="photo-zoom-in" type="button" aria-label="Zoom inn">+</button>
+            <button id="photo-zoom-reset" type="button">Tilpass</button>
+          </div>
+          <div class="annotation-gallery">
+            <button id="gcp-photo-prev" type="button" aria-label="Forrige bilde">← Forrige</button>
+            <span id="gcp-photo-count"></span>
+            <button id="gcp-photo-next" type="button" aria-label="Neste bilde">Neste →</button>
+          </div>
+          <button id="gcp-open-bubble" type="button">Åpne 360° bildeboble</button>
+          <p id="annotation-note" class="annotation-note"></p>
+        </section>
+        <section id="bubble-controls" class="bubble-controls" hidden>
+          <strong id="bubble-title"></strong>
+          <span>Dra for å se deg rundt · musehjul zoomer</span>
+          <button id="bubble-close" type="button">Tilbake til skannet</button>
+        </section>
+      </main>
+      <main id="property-view" hidden>
+        <h2 id="property-view-title"></h2>
+        <p id="property-view-note"></p>
+        <a id="property-view-link" href="./bim-lab.html?model=zones#Viewer" hidden>Åpne HG62 BIM-visning</a>
+      </main>
+    </div>
+    <nav class="hemy-properties" aria-label="Eiendommer"><div class="hemy-properties-title">Eiendom</div><div id="hemy-property-list"></div></nav>
+    <script>
+      if (location.protocol === "file:") {
+        const link = `http://127.0.0.1:4175/lcc2.html${location.search || "?scan=bs17-loftet&theme=hemy"}`;
+        document.body.innerHTML = '<main style="max-width:650px;margin:12vh auto;padding:32px;font:16px/1.5 Arial,sans-serif;color:#092249;background:#fff;border:1px solid #d6dfe9;border-radius:12px;box-shadow:0 8px 28px #09224922"><strong style="color:#9a562b">HEMY 360 · VIEWER LAB</strong><h1>Åpne vieweren via lokal webserver</h1><p>Filen er åpnet direkte fra disken. Da kan ikke nettleseren laste visningsmotoren, stilene eller skannene.</p><p>Start utviklingsserveren med <code>pnpm dev -- --port 4175</code> i prosjektmappen, og åpne adressen under:</p><p><a id="served-viewer-link" style="color:#0968c3;font-weight:bold"></a></p></main>';
+        const anchor = document.querySelector("#served-viewer-link");
+        anchor.href = link;
+        anchor.textContent = link;
+      }
+    </script>
+    <script type="module" src="/src/lcc2-pilot.ts"></script>
+  </body>
+</html>

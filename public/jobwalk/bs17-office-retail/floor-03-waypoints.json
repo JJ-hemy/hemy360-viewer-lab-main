@@ -1,0 +1,38 @@
+{
+  "project": "BS17 - CP: Office to Retail Space (JobWalk)",
+  "sheet": "03. FLOOR",
+  "source": "HoloBuilder interactive sheet PDF, exported 2026-10-06",
+  "accuracy": "Approximate manual positions on a 2D floor plan; not surveyed coordinates",
+  "points": [
+    {
+      "id": "1777537273929",
+      "x": 0.589121,
+      "y": 0.605763,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537273929"
+    },
+    {
+      "id": "1777537303130",
+      "x": 0.576944,
+      "y": 0.597729,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537303130"
+    },
+    {
+      "id": "1777537328341",
+      "x": 0.550447,
+      "y": 0.596198,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537328341"
+    },
+    {
+      "id": "1777537363363",
+      "x": 0.566104,
+      "y": 0.542446,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537363363"
+    },
+    {
+      "id": "1777537385330",
+      "x": 0.53479,
+      "y": 0.543211,
+      "url": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537385330"
+    }
+  ]
+}

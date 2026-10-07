@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.venv/
+__pycache__/
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+README.local.md
+docs/scan-bim-pofin-pilot.md
+
+# Raw scans, BIM exports and derived model assets stay outside Git.
+*.ifc
+*.rvt
+*.frag
+*.lcc
+*.lcc2
+*.sog
+*.e57
+*.las
+*.laz
+*.ply
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.3tz
+*.glb
+
+# Credentials and certificates.
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+resources
+vendor/xgrids-web-sdk/
+
+# Lokale BIM-data og avledede rapporter
+models/
+data/
+public/models/
+public/jobwalk/**/*.jpeg
+public/jobwalk/**/*.jpg
+public/jobwalk/**/panoramas/*.webp

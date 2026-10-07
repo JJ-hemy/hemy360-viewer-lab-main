@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Hemy360 · Sol20 / Sol24–26</title>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="lcc2.html?scan=bs17-loftet&amp;lang=en">▦ &nbsp;Hemy<span>360</span></a><div class="crumb">Property Business › Digital Twin › <strong>Viewer Lab</strong></div><select id="property" aria-label="Select property"><option value="bs17">BS17</option><option value="sol20">Sol20</option><option value="sol24-26">Sol24–26</option></select></header>
+  <main>
+    <aside class="sidebar">
+      <small class="eyebrow">DIGITAL TWIN WORKSPACE</small>
+      <h1 id="title">Sol20 · Viewer Lab</h1>
+      <p>Scan model and project documents</p>
+      <div class="card"><h2>Model</h2><p id="model-name">Exterior 3D scan · LCC2</p><p id="model-context"></p><button id="fit" type="button">Fit view</button></div>
+      <div class="card"><h2>Project documents</h2><p>ACC includes Sol24–26 architectural, structural and HVAC models, as well as the SOL20 as-built IFC. Their alignment with the scan model has not been calibrated here.</p><a id="acc-link" href="https://acc.autodesk.eu/docs/files/projects/72fb57ca-8f2f-4380-bb28-6dcd6563af2c?folderUrn=urn%3Aadsk.wipemea%3Afs.folder%3Aco.2QHyfaivSnKHwci1FmKeEQ&amp;viewModel=detail&amp;moduleId=folders" target="_blank" rel="noopener noreferrer">Open project in ACC ↗</a></div>
+      <div class="card"><h2>Controls</h2><p>Drag with one finger to rotate. Use two fingers to pan and pinch to zoom. With a mouse: left button rotates, right button pans, and the wheel zooms.</p></div>
+    </aside>
+    <section class="viewport" aria-label="3D view">
+      <div id="canvas-host"></div>
+      <div class="status" id="status" role="status" aria-live="polite">Preparing 3D model …</div>
+      <div class="mobile-tools"><button id="mobile-fit" type="button" aria-label="Fit view">⌂</button><button id="show-info" type="button" aria-label="Show information">☷</button></div>
+    </section>
+  </main>
+  <script type="module" src="/src/sol-viewer.ts"></script>
+</body>
+</html>

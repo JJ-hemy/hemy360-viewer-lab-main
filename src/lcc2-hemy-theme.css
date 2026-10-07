@@ -1,0 +1,207 @@
+/* Presentation shell derived from the supplied Hemy 360 screens. No product data or navigation is implied. */
+.hemy-topbar, .hemy-rail, .hemy-properties, .hemy-workspace-heading { display: none; }
+.theme-picker { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; font-size: 12px; }
+.theme-picker select { width: auto; min-height: 30px; padding: 3px 6px; font-size: 12px; }
+.property-other .panel > .theme-picker,
+.property-project-active .panel > .theme-picker { display: flex; }
+
+html[data-viewer-theme="hemy"] {
+  --hemy-navy: #031a3b;
+  --hemy-ink: #092249;
+  --hemy-blue: #0968c3;
+  --hemy-muted: #5b6d86;
+  --hemy-line: #d6dfe9;
+  --hemy-warm-line: #dfccb2;
+  color: var(--hemy-ink);
+  background: #f5f7fa;
+  height: 100%; overflow: hidden;
+}
+html[data-viewer-theme="hemy"] body {
+  position: fixed; inset: 0;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr) 78px;
+  grid-template-rows: 60px minmax(0, 1fr);
+  width: 100%; height: 100vh; overflow: hidden;
+  background: #f5f7fa;
+}
+html[data-viewer-theme="hemy"] .hemy-topbar {
+  grid-column: 1 / -1; grid-row: 1; z-index: 15;
+  display: flex; align-items: center; gap: 25px; min-width: 0; padding: 0 17px;
+  color: #fff; background: var(--hemy-navy); box-shadow: 0 2px 6px #06224727;
+}
+.hemy-brand { display: flex; align-items: center; gap: 12px; white-space: nowrap; }
+.jobwalk-map-panel { width: min(1100px, calc(100vw - 24px)); max-width: none; max-height: calc(100dvh - 24px); margin: auto; padding: 16px; border: 1px solid #c9d6e4; border-radius: 10px; color: #092249; background: #fff; }
+.jobwalk-map-panel::backdrop { background: #031a3bb8; }
+.jobwalk-map-panel button { width: auto; }
+.jobwalk-map-panel p { font-size: 12px; line-height: 1.4; }
+.jobwalk-map-scroll { max-height: calc(100dvh - 140px); overflow: auto; }
+.jobwalk-map { position: relative; width: 100%; min-width: 760px; border: 1px solid #c9d6e4; background: #fff; }
+.jobwalk-map img { display: block; width: 100%; height: auto; }
+.jobwalk-map-points { position: absolute; inset: 0; }
+.jobwalk-map-point { position: absolute; width: 22px; height: 22px; transform: translate(-50%, -50%); border-radius: 50%; }
+.jobwalk-map-point-local { background: #138e70aa; border: 2px solid #fff; cursor: pointer; }
+.jobwalk-map-point-pending { background: #bd7b20aa; border: 2px solid #fff; cursor: pointer; }
+.jobwalk-map-point:hover, .jobwalk-map-point:focus-visible { z-index: 1; outline: 3px solid #0968c3; background: #0968c333; }
+.jobwalk-photo-panel { width: min(1100px, calc(100vw - 16px)); max-width: none; height: min(780px, calc(100dvh - 16px)); max-height: none; margin: auto; padding: 10px; border: 1px solid #c9d6e4; border-radius: 10px; color: #092249; background: #fff; }
+.jobwalk-photo-panel::backdrop { background: #031a3bcb; }
+.jobwalk-photo-head { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; min-height: 44px; }
+.jobwalk-photo-head button, .jobwalk-photo-head select { width: auto; }
+.jobwalk-photo-view { width: 100%; height: calc(100% - 94px); background: #172438; overflow: hidden; }
+.jobwalk-photo-view canvas { display: block; width: 100%; height: 100%; }
+.hemy-brand strong { font-size: 20px; letter-spacing: -.5px; }
+.hemy-brand em { position: relative; color: #ffcf00; font-style: normal; }
+.hemy-brand em::after { content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px; background: #ffcf00; }
+.hemy-app-mark { font-size: 26px; line-height: 1; }
+.hemy-breadcrumb { min-width: 0; color: #cbd6e5; font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.hemy-breadcrumb span { padding: 0 8px; color: #7792b6; }
+.hemy-breadcrumb strong { color: #fff; }
+.hemy-topbar-actions { display: flex; align-items: center; gap: 9px; margin-left: auto; white-space: nowrap; font-size: 12px; }
+.hemy-topbar-actions label { margin: 0; color: #b9cbe2; font-size: 11px; }
+.hemy-topbar-actions select { width: auto; min-height: 32px; padding: 4px 27px 4px 9px; border: 1px solid #627b9b; color: white; background: #15335b; font-size: 12px; }
+.hemy-top-property { padding: 8px 9px; border-left: 1px solid #49617e; font-weight: 700; }
+html[data-viewer-theme="hemy"] .hemy-rail {
+  grid-column: 1; grid-row: 2; display: flex; flex-direction: column; align-items: stretch;
+  padding-top: 10px; background: var(--hemy-navy); overflow-y: auto;
+}
+.hemy-rail button { display: grid; place-items: center; width: 100%; min-height: 54px; margin: 0; padding: 0; border: 0; border-left: 3px solid transparent; border-radius: 0; color: white; background: transparent; font-size: 24px; }
+.hemy-rail button:hover, .hemy-rail button:focus-visible { border-left-color: #83c0ff; background: #116cb6; }
+.hemy-rail button:first-child { border-left-color: #83c0ff; background: #116cb6; }
+html[data-viewer-theme="hemy"] .hemy-properties {
+  grid-column: 3; grid-row: 2; display: flex; flex-direction: column; overflow-y: auto;
+  border-left: 1px solid #d5dee8; background: white;
+}
+.hemy-properties-title { padding: 16px 3px 9px; color: #66758b; text-align: center; text-transform: uppercase; font-size: 9px; font-weight: 700; letter-spacing: .04em; }
+#hemy-property-list { min-width: 0; overflow-x: hidden; }
+.hemy-properties button { display: block; width: 100%; min-height: 45px; margin: 0; padding: 7px 3px; border: 0; border-radius: 0; color: #172f53; background: white; font-size: 11px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hemy-properties button:hover { background: #edf5ff; }
+.hemy-properties button[aria-current] { border-right: 3px solid #126fc3; background: #f4ecda; }
+html[data-viewer-theme="hemy"] #scan-pilot {
+  grid-column: 2; grid-row: 2; display: grid; grid-template-columns: var(--viewer-sidebar-width) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr); height: 100%; min-height: 0; min-width: 0;
+  padding: 16px 18px 16px 18px; gap: 14px;
+}
+html[data-viewer-theme="hemy"] #sidebar-resize-handle { top: 134px; bottom: 16px; left: calc(18px + var(--viewer-sidebar-width) + 2px); }
+html[data-viewer-theme="hemy"] .hemy-workspace-heading {
+  grid-column: 1 / -1; grid-row: 1; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  min-height: 104px; padding: 17px 28px; border: 1px solid var(--hemy-warm-line);
+  border-radius: 11px; background: #fff; box-shadow: 0 2px 5px #0d23441a;
+}
+.hemy-workspace-heading small { display: block; color: #954a23; font-size: 11px; font-weight: 700; letter-spacing: .025em; }
+.hemy-workspace-heading h2 { margin: 8px 0 3px; font-size: 23px; line-height: 1.2; }
+.hemy-workspace-heading h2 span:last-child { color: #af7617; font-size: 23px; font-weight: 400; }
+.hemy-workspace-heading p { margin: 0; color: #8f4d28; font-size: 12px; }
+.hemy-pilot-badge { padding: 6px 12px; border: 1px solid #d29b66; border-radius: 30px; color: #8b4b22; font-size: 11px; white-space: nowrap; }
+html[data-viewer-theme="hemy"] .panel {
+  grid-column: 1; grid-row: 2; width: auto; min-width: 0; height: 100%; padding: 20px;
+  border: 1px solid var(--hemy-line); border-radius: 10px;
+  color: var(--hemy-ink); background: #fff; box-shadow: 0 1px 4px #0d234414;
+}
+html[data-viewer-theme="hemy"] .panel > .theme-picker { display: none; }
+html[data-viewer-theme="hemy"] .panel h1 { margin: 14px 0 4px; color: var(--hemy-ink); font-size: 19px; }
+html[data-viewer-theme="hemy"] .panel p,
+html[data-viewer-theme="hemy"] .panel dt,
+html[data-viewer-theme="hemy"] .panel .layer-status,
+html[data-viewer-theme="hemy"] .panel .layer-details summary,
+html[data-viewer-theme="hemy"] .panel .drawing-caveat { color: var(--hemy-muted); }
+html[data-viewer-theme="hemy"] .panel .back,
+html[data-viewer-theme="hemy"] .panel .layer-open,
+html[data-viewer-theme="hemy"] #property-view a { color: #0867bf; }
+html[data-viewer-theme="hemy"] .panel select,
+html[data-viewer-theme="hemy"] .panel button,
+html[data-viewer-theme="hemy"] .panel input[type="number"],
+html[data-viewer-theme="hemy"] .panel input[type="text"] {
+  border-color: #bdcad8; color: var(--hemy-ink); background: #f8fafc;
+}
+html[data-viewer-theme="hemy"] .panel select:focus-visible,
+html[data-viewer-theme="hemy"] .panel button:focus-visible,
+html[data-viewer-theme="hemy"] .hemy-properties button:focus-visible {
+  outline: 2px solid #0867bf; outline-offset: 2px;
+}
+html[data-viewer-theme="hemy"] .panel button:hover { border-color: #1168ba; background: #ecf5ff; }
+html[data-viewer-theme="hemy"] .panel input[type="checkbox"],
+html[data-viewer-theme="hemy"] .panel input[type="range"] { accent-color: #116fc8; }
+html[data-viewer-theme="hemy"] .panel output,
+html[data-viewer-theme="hemy"] .panel #status,
+html[data-viewer-theme="hemy"] .panel #drawing-status,
+html[data-viewer-theme="hemy"] .panel #noise-mask-status { color: #0867bf; }
+html[data-viewer-theme="hemy"] .property-tabs button[aria-selected="true"],
+html[data-viewer-theme="hemy"] .height-view-buttons button[aria-pressed="true"],
+html[data-viewer-theme="hemy"] .section-mode button[aria-pressed="true"],
+html[data-viewer-theme="hemy"] .section-gizmo-actions button[aria-pressed="true"] { border-color: #116fc8; color: #0756a6; background: #eaf4ff; }
+html[data-viewer-theme="hemy"] .adjacent-panel,
+html[data-viewer-theme="hemy"] .project-panel,
+html[data-viewer-theme="hemy"] .gcp-panel,
+html[data-viewer-theme="hemy"] .noise-mask-panel,
+html[data-viewer-theme="hemy"] .section-panel,
+html[data-viewer-theme="hemy"] .bim-panel,
+html[data-viewer-theme="hemy"] .scan-layer-picker,
+html[data-viewer-theme="hemy"] .bim-filter,
+html[data-viewer-theme="hemy"] .bim-layers,
+html[data-viewer-theme="hemy"] .height-view,
+html[data-viewer-theme="hemy"] .scan-separation {
+  border-color: var(--hemy-line); background: #fff;
+}
+html[data-viewer-theme="hemy"] .model-layer,
+html[data-viewer-theme="hemy"] .bim-tree,
+html[data-viewer-theme="hemy"] .bim-object { border-color: var(--hemy-line); background: #f7f9fc; }
+html[data-viewer-theme="hemy"] .model-layer > label:not(.toggle),
+html[data-viewer-theme="hemy"] .bim-layers legend { color: var(--hemy-ink); }
+html[data-viewer-theme="hemy"] .layer-action-menu { border-color: var(--hemy-line); background: white; box-shadow: 0 9px 20px #10294a22; }
+html[data-viewer-theme="hemy"] .layer-action-menu button { background: white; }
+html[data-viewer-theme="hemy"] .layer-action-menu button:hover,
+html[data-viewer-theme="hemy"] .bim-tree button:hover,
+html[data-viewer-theme="hemy"] .bim-tree button[aria-current="true"] { color: #095fab; background: #eaf4ff; }
+html[data-viewer-theme="hemy"] .model-preferences button:first-child { border-color: #062e55; color: #fff; background: #073253; }
+html[data-viewer-theme="hemy"] .model-preferences button:first-child:hover { background: #10507f; }
+html[data-viewer-theme="hemy"] .model-context-menu,
+html[data-viewer-theme="hemy"] #mobile-section-dialog { border-color: var(--hemy-line); color: var(--hemy-ink); background: white; box-shadow: 0 12px 30px #10294a33; }
+html[data-viewer-theme="hemy"] #section-pick-hint { color: #092249; background: #fff; border: 1px solid #bdcad8; }
+html[data-viewer-theme="hemy"] .model-context-menu button,
+html[data-viewer-theme="hemy"] .model-context-menu select,
+html[data-viewer-theme="hemy"] #mobile-section-dialog button,
+html[data-viewer-theme="hemy"] #mobile-section-dialog select { border-color: #bdcad8; color: var(--hemy-ink); background: #f8fafc; }
+html[data-viewer-theme="hemy"] #mobile-section-dialog p { color: var(--hemy-muted); }
+html[data-viewer-theme="hemy"] #mobile-section-dialog output { color: #0867bf; }
+html[data-viewer-theme="hemy"] .panel .section-shape-tools output { color: #0867bf; }
+html[data-viewer-theme="hemy"] #mobile-section-dialog input[type="checkbox"],
+html[data-viewer-theme="hemy"] #mobile-section-dialog input[type="range"] { accent-color: #116fc8; }
+html[data-viewer-theme="hemy"] .metrics,
+html[data-viewer-theme="hemy"] .metrics div,
+html[data-viewer-theme="hemy"] .controls-guide,
+html[data-viewer-theme="hemy"] .drawing-panel { border-color: var(--hemy-line); }
+html[data-viewer-theme="hemy"] #canvas-host,
+html[data-viewer-theme="hemy"] #property-view {
+  grid-column: 2; grid-row: 2; height: 100%; min-height: 0; border: 1px solid var(--hemy-warm-line);
+  border-radius: 10px; overflow: hidden; background: #e9edf2; box-shadow: 0 1px 4px #0d234414;
+}
+html[data-viewer-theme="hemy"] #property-view { background: white; }
+html[data-viewer-theme="hemy"] .gcp-annotation,
+html[data-viewer-theme="hemy"] .bubble-controls { color: #fff; }
+html[data-viewer-theme="hemy"] .gcp-annotation p,
+html[data-viewer-theme="hemy"] .bubble-controls p { color: #d5e0ed; }
+html[data-viewer-theme="hemy"] .gcp-annotation button,
+html[data-viewer-theme="hemy"] .bubble-controls button { color: #fff; }
+
+@media (max-width: 1050px) {
+  html[data-viewer-theme="hemy"] body { grid-template-columns: 52px minmax(0, 1fr); }
+  html[data-viewer-theme="hemy"] .hemy-properties { display: none; }
+  html[data-viewer-theme="hemy"] #scan-pilot { grid-template-columns: var(--viewer-sidebar-width) minmax(0, 1fr); padding: 12px; gap: 10px; }
+  html[data-viewer-theme="hemy"] #sidebar-resize-handle { top: 126px; bottom: 12px; left: calc(12px + var(--viewer-sidebar-width)); }
+  .hemy-breadcrumb { display: none; }
+}
+@media (max-width: 720px) {
+  html[data-viewer-theme="hemy"] { height: auto; overflow-x: hidden; overflow-y: auto; }
+  html[data-viewer-theme="hemy"] body { position: static; display: block; height: auto; overflow: auto; }
+  html[data-viewer-theme="hemy"] .hemy-topbar { position: sticky; top: 0; height: 56px; }
+  html[data-viewer-theme="hemy"] .hemy-rail { display: none; }
+  html[data-viewer-theme="hemy"] #scan-pilot { display: flex; flex-direction: column; height: auto; min-height: 100vh; }
+  html[data-viewer-theme="hemy"] .hemy-workspace-heading { min-height: 90px; padding: 12px 15px; }
+  html[data-viewer-theme="hemy"] .hemy-pilot-badge { display: none; }
+  html[data-viewer-theme="hemy"] .panel { width: 100%; height: min(40vh, 340px); flex: none; }
+  html[data-viewer-theme="hemy"] #sidebar-resize-handle { display: none; }
+  html[data-viewer-theme="hemy"] #canvas-host,
+  html[data-viewer-theme="hemy"] #property-view { width: 100%; height: max(52vh, 360px); flex: none; }
+  .hemy-topbar-actions label, .hemy-top-property { display: none; }
+  html[data-viewer-theme="hemy"] #mobile-viewer-tools { background: #031a3be8; }
+  html[data-viewer-theme="hemy"] #mobile-viewer-tools button { border-color: #bad3ed; color: #092249; background: #fff; }
+}

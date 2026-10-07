@@ -1,0 +1,1794 @@
+{
+  "schemaVersion": 1,
+  "projectId": "c5be311a-1cb8-4ec5-b607-35707445cd16",
+  "name": "BS17 - CP: Office to Retail Space (JobWalk)",
+  "source": "HoloBuilder / FARO Sphere XG",
+  "mapSource": "Interactive sheet PDFs exported 2026-10-06",
+  "positionAccuracy": "Waypoints manually placed on 2D sheets; not surveyed or BIM aligned",
+  "migrationState": "partial",
+  "observedSceneCount": 245,
+  "waypointCount": 172,
+  "locallyExportedCaptureCount": 5,
+  "waypoints": [
+    {
+      "id": "BS17-JW-F01-001",
+      "floor": "01",
+      "x": 0.43085,
+      "y": 0.433194,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144388490",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144388490",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-002",
+      "floor": "01",
+      "x": 0.476767,
+      "y": 0.426528,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144632834",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144632834",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-003",
+      "floor": "01",
+      "x": 0.460664,
+      "y": 0.359949,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144709471",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144709471",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-004",
+      "floor": "01",
+      "x": 0.495701,
+      "y": 0.406115,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144774987",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144774987",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-005",
+      "floor": "01",
+      "x": 0.513132,
+      "y": 0.399092,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144816661",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144816661",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-006",
+      "floor": "01",
+      "x": 0.513458,
+      "y": 0.334185,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144862670",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144862670",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-007",
+      "floor": "01",
+      "x": 0.473576,
+      "y": 0.318789,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144898740",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144898740",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-008",
+      "floor": "01",
+      "x": 0.47522,
+      "y": 0.260329,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144947316",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144947316",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-009",
+      "floor": "01",
+      "x": 0.514943,
+      "y": 0.287905,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766144999641",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766144999641",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-010",
+      "floor": "01",
+      "x": 0.540847,
+      "y": 0.29625,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145045613",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145045613",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-011",
+      "floor": "01",
+      "x": 0.539276,
+      "y": 0.331044,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145083654",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145083654",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-012",
+      "floor": "01",
+      "x": 0.529161,
+      "y": 0.257021,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145137093",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145137093",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-013",
+      "floor": "01",
+      "x": 0.535617,
+      "y": 0.217038,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145186703",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145186703",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-014",
+      "floor": "01",
+      "x": 0.534698,
+      "y": 0.238436,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145249695",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145249695",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-015",
+      "floor": "01",
+      "x": 0.513958,
+      "y": 0.21394,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145340978",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145340978",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-016",
+      "floor": "01",
+      "x": 0.45614,
+      "y": 0.211307,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145390804",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145390804",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-017",
+      "floor": "01",
+      "x": 0.466997,
+      "y": 0.165261,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145438059",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145438059",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-018",
+      "floor": "01",
+      "x": 0.501566,
+      "y": 0.166875,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145485933",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145485933",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-019",
+      "floor": "01",
+      "x": 0.535545,
+      "y": 0.162569,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145528006",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145528006",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-020",
+      "floor": "01",
+      "x": 0.523012,
+      "y": 0.122116,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145579174",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145579174",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-021",
+      "floor": "01",
+      "x": 0.540403,
+      "y": 0.08899,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766145641517",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766145641517",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-022",
+      "floor": "01",
+      "x": 0.692332,
+      "y": 0.755359,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532478606",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532478606",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-023",
+      "floor": "01",
+      "x": 0.656514,
+      "y": 0.754327,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532512178",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532512178",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-024",
+      "floor": "01",
+      "x": 0.676668,
+      "y": 0.790606,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532546616",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532546616",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-025",
+      "floor": "01",
+      "x": 0.701035,
+      "y": 0.818959,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532586939",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532586939",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-026",
+      "floor": "01",
+      "x": 0.644783,
+      "y": 0.812861,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532613448",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532613448",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-027",
+      "floor": "01",
+      "x": 0.599942,
+      "y": 0.81309,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532656383",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532656383",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-028",
+      "floor": "01",
+      "x": 0.562565,
+      "y": 0.810803,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532682092",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532682092",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-029",
+      "floor": "01",
+      "x": 0.527108,
+      "y": 0.808288,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532706352",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532706352",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-030",
+      "floor": "01",
+      "x": 0.471804,
+      "y": 0.81187,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532746828",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532746828",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-031",
+      "floor": "01",
+      "x": 0.41589,
+      "y": 0.812405,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532789359",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532789359",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-032",
+      "floor": "01",
+      "x": 0.475548,
+      "y": 0.750678,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532825535",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532825535",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-033",
+      "floor": "01",
+      "x": 0.437175,
+      "y": 0.747478,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532859507",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532859507",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-034",
+      "floor": "01",
+      "x": 0.381915,
+      "y": 0.767182,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532891084",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532891084",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-035",
+      "floor": "01",
+      "x": 0.418674,
+      "y": 0.691476,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532918242",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532918242",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-036",
+      "floor": "01",
+      "x": 0.483123,
+      "y": 0.674364,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532961877",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532961877",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-037",
+      "floor": "01",
+      "x": 0.454345,
+      "y": 0.605572,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777532985856",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777532985856",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-038",
+      "floor": "01",
+      "x": 0.407549,
+      "y": 0.610239,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533012426",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533012426",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-039",
+      "floor": "01",
+      "x": 0.415893,
+      "y": 0.530039,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533041335",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533041335",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-040",
+      "floor": "01",
+      "x": 0.460148,
+      "y": 0.53678,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533107991",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533107991",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-041",
+      "floor": "01",
+      "x": 0.414683,
+      "y": 0.502558,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533146898",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533146898",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-042",
+      "floor": "01",
+      "x": 0.408516,
+      "y": 0.464359,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533169972",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533169972",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-043",
+      "floor": "01",
+      "x": 0.458334,
+      "y": 0.464878,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533193629",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533193629",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-044",
+      "floor": "01",
+      "x": 0.464017,
+      "y": 0.442062,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533216044",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533216044",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-045",
+      "floor": "01",
+      "x": 0.395215,
+      "y": 0.450013,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533260871",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533260871",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-046",
+      "floor": "01",
+      "x": 0.510775,
+      "y": 0.775591,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533337341",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533337341",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-047",
+      "floor": "01",
+      "x": 0.533077,
+      "y": 0.775584,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533358753",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533358753",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-048",
+      "floor": "01",
+      "x": 0.62602,
+      "y": 0.772494,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533570193",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533570193",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-049",
+      "floor": "01",
+      "x": 0.601206,
+      "y": 0.751608,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533636780",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533636780",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-050",
+      "floor": "01",
+      "x": 0.572416,
+      "y": 0.751732,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533669471",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533669471",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-051",
+      "floor": "01",
+      "x": 0.56256,
+      "y": 0.713791,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533697638",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533697638",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-052",
+      "floor": "01",
+      "x": 0.577379,
+      "y": 0.675859,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533732499",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533732499",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-053",
+      "floor": "01",
+      "x": 0.614005,
+      "y": 0.685768,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533751897",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533751897",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-054",
+      "floor": "01",
+      "x": 0.525272,
+      "y": 0.665785,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533831125",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533831125",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-055",
+      "floor": "01",
+      "x": 0.520304,
+      "y": 0.632258,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533874740",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533874740",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-056",
+      "floor": "01",
+      "x": 0.492229,
+      "y": 0.629781,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533912963",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533912963",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-057",
+      "floor": "01",
+      "x": 0.640925,
+      "y": 0.687915,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533970884",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533970884",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-058",
+      "floor": "01",
+      "x": 0.627292,
+      "y": 0.732672,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777533994111",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777533994111",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-059",
+      "floor": "01",
+      "x": 0.675933,
+      "y": 0.705586,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534019566",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534019566",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-060",
+      "floor": "01",
+      "x": 0.656523,
+      "y": 0.632258,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534079639",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534079639",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-061",
+      "floor": "01",
+      "x": 0.691993,
+      "y": 0.700797,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534113049",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534113049",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-062",
+      "floor": "01",
+      "x": 0.539172,
+      "y": 0.715484,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534169127",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534169127",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-063",
+      "floor": "01",
+      "x": 0.542956,
+      "y": 0.676127,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534199868",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534199868",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-064",
+      "floor": "01",
+      "x": 0.689111,
+      "y": 0.882358,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537573792",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537573792",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-065",
+      "floor": "01",
+      "x": 0.60216,
+      "y": 0.895716,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537616582",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537616582",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-066",
+      "floor": "01",
+      "x": 0.522587,
+      "y": 0.917893,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537644110",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537644110",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F01-067",
+      "floor": "01",
+      "x": 0.424163,
+      "y": 0.899785,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537669211",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537669211",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-001",
+      "floor": "02",
+      "x": 0.632556,
+      "y": 0.382136,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536948385",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536948385",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-002",
+      "floor": "02",
+      "x": 0.662128,
+      "y": 0.378927,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536933037",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536933037",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-003",
+      "floor": "02",
+      "x": 0.698568,
+      "y": 0.382412,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536916051",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536916051",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-004",
+      "floor": "02",
+      "x": 0.701634,
+      "y": 0.45148,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536986465",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536986465",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-005",
+      "floor": "02",
+      "x": 0.644441,
+      "y": 0.447003,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130045000",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130045000",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-006",
+      "floor": "02",
+      "x": 0.612516,
+      "y": 0.448385,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130110557",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130110557",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-007",
+      "floor": "02",
+      "x": 0.576936,
+      "y": 0.453107,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130160994",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130160994",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-008",
+      "floor": "02",
+      "x": 0.576374,
+      "y": 0.395165,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130284728",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130284728",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-009",
+      "floor": "02",
+      "x": 0.577112,
+      "y": 0.370459,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536091804",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536091804",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-010",
+      "floor": "02",
+      "x": 0.57982,
+      "y": 0.334401,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130410383",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130410383",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-011",
+      "floor": "02",
+      "x": 0.530715,
+      "y": 0.440443,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536176849",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536176849",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-012",
+      "floor": "02",
+      "x": 0.475508,
+      "y": 0.443046,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536202393",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536202393",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-013",
+      "floor": "02",
+      "x": 0.486056,
+      "y": 0.471178,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536449168",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536449168",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-014",
+      "floor": "02",
+      "x": 0.495677,
+      "y": 0.494028,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130727331",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130727331",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-015",
+      "floor": "02",
+      "x": 0.467731,
+      "y": 0.475268,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536368930",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536368930",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-016",
+      "floor": "02",
+      "x": 0.463241,
+      "y": 0.495519,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766130870534",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766130870534",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-017",
+      "floor": "02",
+      "x": 0.476242,
+      "y": 0.411795,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766131015516",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766131015516",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-018",
+      "floor": "02",
+      "x": 0.438239,
+      "y": 0.44129,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535308911",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535308911",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-019",
+      "floor": "02",
+      "x": 0.408236,
+      "y": 0.442222,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535336462",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535336462",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-020",
+      "floor": "02",
+      "x": 0.380887,
+      "y": 0.44144,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535360786",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535360786",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-021",
+      "floor": "02",
+      "x": 0.381535,
+      "y": 0.486395,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535237324",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535237324",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-022",
+      "floor": "02",
+      "x": 0.384086,
+      "y": 0.546856,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535160497",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535160497",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-023",
+      "floor": "02",
+      "x": 0.426855,
+      "y": 0.549412,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535209121",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535209121",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-024",
+      "floor": "02",
+      "x": 0.424542,
+      "y": 0.490846,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535283720",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535283720",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-025",
+      "floor": "02",
+      "x": 0.454832,
+      "y": 0.535212,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536400612",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536400612",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-026",
+      "floor": "02",
+      "x": 0.480625,
+      "y": 0.529615,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536485711",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536485711",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-027",
+      "floor": "02",
+      "x": 0.523155,
+      "y": 0.531137,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536625392",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536625392",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-028",
+      "floor": "02",
+      "x": 0.592692,
+      "y": 0.521383,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536705944",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536705944",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-029",
+      "floor": "02",
+      "x": 0.586893,
+      "y": 0.60369,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766132847495",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766132847495",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-030",
+      "floor": "02",
+      "x": 0.552805,
+      "y": 0.597891,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536676224",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536676224",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-031",
+      "floor": "02",
+      "x": 0.5535,
+      "y": 0.541574,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536649530",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536649530",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-032",
+      "floor": "02",
+      "x": 0.621486,
+      "y": 0.523203,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536731917",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536731917",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-033",
+      "floor": "02",
+      "x": 0.682201,
+      "y": 0.529609,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536865702",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536865702",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-034",
+      "floor": "02",
+      "x": 0.682608,
+      "y": 0.574734,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537078109",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537078109",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-035",
+      "floor": "02",
+      "x": 0.638017,
+      "y": 0.581473,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537114193",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537114193",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-036",
+      "floor": "02",
+      "x": 0.593683,
+      "y": 0.577706,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537135122",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537135122",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-037",
+      "floor": "02",
+      "x": 0.54332,
+      "y": 0.577364,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536565894",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536565894",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-038",
+      "floor": "02",
+      "x": 0.482717,
+      "y": 0.575953,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536516826",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536516826",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-039",
+      "floor": "02",
+      "x": 0.432112,
+      "y": 0.575782,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535134053",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535134053",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-040",
+      "floor": "02",
+      "x": 0.380057,
+      "y": 0.578362,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535011185",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535011185",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-041",
+      "floor": "02",
+      "x": 0.35828,
+      "y": 0.559515,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535030239",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535030239",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-042",
+      "floor": "02",
+      "x": 0.384657,
+      "y": 0.637797,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535071349",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535071349",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-043",
+      "floor": "02",
+      "x": 0.390792,
+      "y": 0.717044,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534901751",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534901751",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-044",
+      "floor": "02",
+      "x": 0.432596,
+      "y": 0.719941,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534833882",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534833882",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-045",
+      "floor": "02",
+      "x": 0.437788,
+      "y": 0.640216,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534927994",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534927994",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-046",
+      "floor": "02",
+      "x": 0.489471,
+      "y": 0.644007,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766134066652",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134066652",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-047",
+      "floor": "02",
+      "x": 0.486931,
+      "y": 0.723225,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534861986",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534861986",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-048",
+      "floor": "02",
+      "x": 0.537666,
+      "y": 0.717196,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766134147818",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134147818",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-049",
+      "floor": "02",
+      "x": 0.539595,
+      "y": 0.643488,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534338967",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534338967",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-050",
+      "floor": "02",
+      "x": 0.590197,
+      "y": 0.645554,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534417349",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534417349",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-051",
+      "floor": "02",
+      "x": 0.590074,
+      "y": 0.719613,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537175297",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537175297",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-052",
+      "floor": "02",
+      "x": 0.645262,
+      "y": 0.717043,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534544215",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534544215",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-053",
+      "floor": "02",
+      "x": 0.644295,
+      "y": 0.646081,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534447587",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534447587",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-054",
+      "floor": "02",
+      "x": 0.691421,
+      "y": 0.636596,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534482581",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534482581",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-055",
+      "floor": "02",
+      "x": 0.686579,
+      "y": 0.723211,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534514494",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534514494",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-056",
+      "floor": "02",
+      "x": 0.538206,
+      "y": 0.754917,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766134511020",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766134511020",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-057",
+      "floor": "02",
+      "x": 0.535859,
+      "y": 0.789527,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534681583",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534681583",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-058",
+      "floor": "02",
+      "x": 0.487778,
+      "y": 0.793154,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534750872",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534750872",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-059",
+      "floor": "02",
+      "x": 0.436818,
+      "y": 0.789365,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534776110",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534776110",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-060",
+      "floor": "02",
+      "x": 0.389359,
+      "y": 0.781454,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534803210",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534803210",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-061",
+      "floor": "02",
+      "x": 0.611527,
+      "y": 0.788578,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534626903",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534626903",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-062",
+      "floor": "02",
+      "x": 0.667917,
+      "y": 0.787563,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534598029",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534598029",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-063",
+      "floor": "02",
+      "x": 0.700457,
+      "y": 0.782334,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534572645",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534572645",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-064",
+      "floor": "02",
+      "x": 0.35535,
+      "y": 0.436361,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535386591",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535386591",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-065",
+      "floor": "02",
+      "x": 0.31558,
+      "y": 0.441394,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535413071",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535413071",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-066",
+      "floor": "02",
+      "x": 0.325673,
+      "y": 0.385625,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535456496",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535456496",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-067",
+      "floor": "02",
+      "x": 0.298321,
+      "y": 0.386566,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535436591",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535436591",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-068",
+      "floor": "02",
+      "x": 0.359145,
+      "y": 0.399689,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535475073",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535475073",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-069",
+      "floor": "02",
+      "x": 0.386496,
+      "y": 0.399782,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1766135237253",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1766135237253",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-070",
+      "floor": "02",
+      "x": 0.428781,
+      "y": 0.331032,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535573073",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535573073",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-071",
+      "floor": "02",
+      "x": 0.370122,
+      "y": 0.319639,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535545349",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535545349",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-072",
+      "floor": "02",
+      "x": 0.320371,
+      "y": 0.313099,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535524138",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535524138",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-073",
+      "floor": "02",
+      "x": 0.470966,
+      "y": 0.321875,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535607089",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535607089",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-074",
+      "floor": "02",
+      "x": 0.530632,
+      "y": 0.307093,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535987694",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535987694",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-075",
+      "floor": "02",
+      "x": 0.532437,
+      "y": 0.235968,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535964107",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535964107",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-076",
+      "floor": "02",
+      "x": 0.477,
+      "y": 0.243186,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535644931",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535644931",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-077",
+      "floor": "02",
+      "x": 0.474843,
+      "y": 0.163264,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535679090",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535679090",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-078",
+      "floor": "02",
+      "x": 0.523638,
+      "y": 0.165152,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535931891",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535931891",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-079",
+      "floor": "02",
+      "x": 0.470598,
+      "y": 0.107275,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535702699",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535702699",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-080",
+      "floor": "02",
+      "x": 0.519752,
+      "y": 0.110714,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535742255",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535742255",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-081",
+      "floor": "02",
+      "x": 0.540491,
+      "y": 0.101139,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535887190",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535887190",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-082",
+      "floor": "02",
+      "x": 0.543566,
+      "y": 0.063431,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535832733",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535832733",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-083",
+      "floor": "02",
+      "x": 0.511638,
+      "y": 0.062634,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535790495",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535790495",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-084",
+      "floor": "02",
+      "x": 0.525709,
+      "y": 0.369597,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536026303",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536026303",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-085",
+      "floor": "02",
+      "x": 0.576639,
+      "y": 0.782764,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534649183",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534649183",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-086",
+      "floor": "02",
+      "x": 0.410459,
+      "y": 0.631637,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777534953150",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777534953150",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-087",
+      "floor": "02",
+      "x": 0.381651,
+      "y": 0.741788,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535096405",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535096405",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-088",
+      "floor": "02",
+      "x": 0.319067,
+      "y": 0.292462,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535498117",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535498117",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-089",
+      "floor": "02",
+      "x": 0.472616,
+      "y": 0.07135,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777535765691",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777535765691",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-090",
+      "floor": "02",
+      "x": 0.513486,
+      "y": 0.405252,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536119093",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536119093",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-091",
+      "floor": "02",
+      "x": 0.494044,
+      "y": 0.406875,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536146380",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536146380",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-092",
+      "floor": "02",
+      "x": 0.456579,
+      "y": 0.414178,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536225313",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536225313",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-093",
+      "floor": "02",
+      "x": 0.425443,
+      "y": 0.381563,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536266028",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536266028",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-094",
+      "floor": "02",
+      "x": 0.459059,
+      "y": 0.37163,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536287515",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536287515",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-095",
+      "floor": "02",
+      "x": 0.475947,
+      "y": 0.364699,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536310920",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536310920",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-096",
+      "floor": "02",
+      "x": 0.476028,
+      "y": 0.386761,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536334357",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536334357",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-097",
+      "floor": "02",
+      "x": 0.521269,
+      "y": 0.571648,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777536540239",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777536540239",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-098",
+      "floor": "02",
+      "x": 0.700951,
+      "y": 0.507743,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537006738",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537006738",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-099",
+      "floor": "02",
+      "x": 0.680252,
+      "y": 0.450492,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537036304",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537036304",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F02-100",
+      "floor": "02",
+      "x": 0.589434,
+      "y": 0.550408,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537210483",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537210483",
+      "captures": []
+    },
+    {
+      "id": "BS17-JW-F03-001",
+      "floor": "03",
+      "x": 0.589121,
+      "y": 0.605763,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537273929",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537273929",
+      "captures": [
+        {
+          "version": 1,
+          "capturedAt": "2026-04-30T08:21:13.929000+00:00",
+          "timeProvenance": "Source scene ID, checked against HoloBuilder's displayed minute for floor 03",
+          "sourceSceneId": "1777537273929",
+          "image": "panoramas/floor-03-point-1777537273929-v001.webp",
+          "original": "originals/floor-03-point-1777537273929-v001.jpeg",
+          "mimeType": "image/jpeg",
+          "bytes": 11564216,
+          "sha256": "2b09adab54e4af785f053afacd4d67117982a926a82d2238c5c542f4114fd620"
+        }
+      ]
+    },
+    {
+      "id": "BS17-JW-F03-002",
+      "floor": "03",
+      "x": 0.576944,
+      "y": 0.597729,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537303130",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537303130",
+      "captures": [
+        {
+          "version": 1,
+          "capturedAt": "2026-04-30T08:21:43.130000+00:00",
+          "timeProvenance": "Source scene ID, checked against HoloBuilder's displayed minute for floor 03",
+          "sourceSceneId": "1777537303130",
+          "image": "panoramas/floor-03-point-1777537303130-v001.webp",
+          "original": "originals/floor-03-point-1777537303130-v001.jpeg",
+          "mimeType": "image/jpeg",
+          "bytes": 19378824,
+          "sha256": "2e64ec73ab5df6b3e2ba818d9f349990c1cf6c8805b8994adb857160fb14b0df"
+        }
+      ]
+    },
+    {
+      "id": "BS17-JW-F03-003",
+      "floor": "03",
+      "x": 0.550447,
+      "y": 0.596198,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537328341",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537328341",
+      "captures": [
+        {
+          "version": 1,
+          "capturedAt": "2026-04-30T08:22:08.341000+00:00",
+          "timeProvenance": "Source scene ID, checked against HoloBuilder's displayed minute for floor 03",
+          "sourceSceneId": "1777537328341",
+          "image": "panoramas/floor-03-point-1777537328341-v001.webp",
+          "original": "originals/floor-03-point-1777537328341-v001.jpeg",
+          "mimeType": "image/jpeg",
+          "bytes": 9751621,
+          "sha256": "c4c2c6de9d220ded0946589a742137a57ebb66b74c0511ef73cb6300e1e26795"
+        }
+      ]
+    },
+    {
+      "id": "BS17-JW-F03-004",
+      "floor": "03",
+      "x": 0.566104,
+      "y": 0.542446,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537363363",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537363363",
+      "captures": [
+        {
+          "version": 1,
+          "capturedAt": "2026-04-30T08:22:43.363000+00:00",
+          "timeProvenance": "Source scene ID, checked against HoloBuilder's displayed minute for floor 03",
+          "sourceSceneId": "1777537363363",
+          "image": "panoramas/floor-03-point-1777537363363-v001.webp",
+          "original": "originals/floor-03-point-1777537363363-v001.jpeg",
+          "mimeType": "image/jpeg",
+          "bytes": 10401499,
+          "sha256": "d1d6cc72073621d693b592af963153543f7ec4134566f0c7ea1579c32426385b"
+        }
+      ]
+    },
+    {
+      "id": "BS17-JW-F03-005",
+      "floor": "03",
+      "x": 0.53479,
+      "y": 0.543211,
+      "positionAccuracy": "approximate-manual-2d",
+      "sourceSceneId": "1777537385330",
+      "sourceUrl": "https://app.holobuilder.eu/app?p=c5be311a-1cb8-4ec5-b607-35707445cd16&s=1777537385330",
+      "captures": [
+        {
+          "version": 1,
+          "capturedAt": "2026-04-30T08:23:05.330000+00:00",
+          "timeProvenance": "Source scene ID, checked against HoloBuilder's displayed minute for floor 03",
+          "sourceSceneId": "1777537385330",
+          "image": "panoramas/floor-03-point-1777537385330-v001.webp",
+          "original": "originals/floor-03-point-1777537385330-v001.jpeg",
+          "mimeType": "image/jpeg",
+          "bytes": 10282988,
+          "sha256": "c8428ca2558b1e69fcee4c2205a23733c4b6a97ad8a1403c2cca075661ec7f43"
+        }
+      ]
+    }
+  ]
+}
